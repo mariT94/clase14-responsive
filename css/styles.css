@@ -1,0 +1,738 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 225px;
+  min-width: 340px;
+
+}
+
+@media only screen and (max-width: 390px) {
+  header {
+    width: 100%;
+    min-width: 340px;
+    height: 5rem;
+  }
+}
+
+header .up {
+  background-color: #d1891c;
+  color: #333333;
+  height: 65px;
+  width: 100%;
+  padding-left: 20px;
+}
+@media only screen and (max-width: 390px) {
+  header .up {
+  height: 2rem;
+  width: 100%;
+  padding: 5px 20px;
+}
+}
+
+header .up p {
+  font-size: 48px;
+  padding: 0;
+}
+
+@media only screen and (max-width: 390px){
+  header .up p {
+  font-size: 1rem;
+  padding: 0;
+}
+} 
+
+header .down {
+  background-color: #00669f;
+  color: #ffffffff;
+  width: 100%;
+  height: 160px;
+  padding: 30px 20px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 390px){
+  header .down {
+  height: 3rem;
+  padding: 10px 20px;
+  text-align: left;
+}
+}
+
+header .down h1 {
+  font-size: 72px;
+}
+
+@media only screen and (max-width: 390px){
+  header .down h1 {
+  font-size: 1.5rem;
+}
+}
+
+/* header quedo listo */
+
+main {
+  width: 100%;
+  padding: 100px;
+}
+
+@media only screen and (max-width: 390px){
+  main {
+  width: 100%;
+  padding: 15px;
+}
+}
+
+.container .box-batman img {
+  border-radius: 50%;
+  width: 352px;
+  height: 352px;
+    position: absolute;
+  top: 389px;
+  right: 200px;
+  
+}
+
+@media only screen and (max-width: 390px){
+  .batman .box-batman img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  top: 170px;
+  right: 130px;
+}
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 390px){
+.container {
+  width: 100%;
+  height: auto;
+  padding: 20px 15px;
+
+}
+}
+section .batman,
+.mujer,
+.super,
+.harley {
+  height: 95rem;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+  background-color: #f3f3f3;
+  text-align: center;
+  border-radius: 35px 35px 0 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+@media only screen and (max-width: 390px){
+  section .batman,
+.mujer,
+.super,
+.harley {
+  height: 45rem;
+  width: 50rem;
+
+}
+}
+
+.container .batman .box-batman {
+  background-image: url("../img/back-bat.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  border-radius: 35px 35px 0 0;
+  position: relative;
+}
+@media only screen and (max-width: 390px){
+  .container .batman .box-batman {
+  width: 100%;
+  height: 15rem;
+  border-radius: 35px 35px 0 0;
+
+}
+}
+
+.container .box-batman .fa-solid,
+.fas {
+  color: #cc2424;
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  font-size: 60px;
+  text-align: center;
+  left: 20px;
+  right: 0%;
+  top: 20px;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 390px){
+  .container .box-batman .fa-solid,
+.fas {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.3rem;
+
+}
+}
+
+.container .text-bat {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 150px 20px 10px;
+}
+@media only screen and (max-width: 390px){
+  .container .text-bat {
+    height: 35rem;
+  padding: 20px 10px 10px;
+}
+}
+
+.container .text-bat h1 {
+  height: 100px;
+  color: #000000;
+  text-align: center;
+  font-size: 84px;
+}
+@media only screen and (max-width: 390px){
+.container .text-bat h1 {
+  height: 3rem;
+  font-size: 2rem;
+}
+}
+.container .text-bat p {
+  height: 400px;
+  text-align: left;
+  color: #333333;
+  font-size: 36px;
+  line-height: 42px;
+  padding: 10px;
+}
+@media only screen and (max-width: 390px){
+.container .text-bat p {
+  width: 100%;
+  height: 20rem;
+  font-size: 1rem;
+  line-height: 22px;
+  padding: 5px;
+}
+}
+
+.container .text-bat button {
+  color: #f3f3f3;
+  background-color: #00669f;
+  width: 15rem;
+  height: 114px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 390px){
+  .container .text-bat button {
+  width: 7rem;
+  height: 3rem;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 1rem;
+}
+}
+/* batman hecho */
+
+/* ellipse */
+.elipse {
+  width: 150%;
+  height: 180px;
+  text-align: right;
+  padding: 15px 80px;
+}
+
+@media only screen and (max-width: 390px){
+.container .elipse {
+  width: 100%;
+  height: 52px;
+  text-align: right;
+  padding: 0;
+}}
+
+
+.elipse .fa-solid.fa-circle-plus {
+  color: #00669f;
+  font-size: 150px;
+}
+
+@media only screen and (max-width: 390px){
+.container .elipse .fa-solid.fa-circle-plus{
+  font-size: 3rem;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  left: 315px;
+}}
+
+/* mujer maravilla */
+
+.container .box-mujer img {
+  border-radius: 50%;
+  width: 352px;
+  height: 352px;
+    position: absolute;
+  top: 389px;
+  right: 200px;
+  
+}
+
+@media only screen and (max-width: 390px){
+  .mujer .box-mujer img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  top: 170px;
+  right: 130px;
+}
+}
+
+
+.container .mujer .box-mujer {
+  background-image: url("../img/back-bat.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  border-radius: 35px 35px 0 0;
+  position: relative;
+}
+@media only screen and (max-width: 390px){
+  .container .mujer .box-mujer {
+  width: 100%;
+  height: 15rem;
+  border-radius: 35px 35px 0 0;
+
+}
+}
+
+.container .box-mujer .fa-solid,
+.fas {
+  color: #cc2424;
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  font-size: 60px;
+  text-align: center;
+  left: 20px;
+  right: 0%;
+  top: 20px;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 390px){
+  .container .box-mujer .fa-solid,
+.fas {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.3rem;
+
+}
+}
+
+.container .text-mujer {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 150px 20px 10px;
+}
+@media only screen and (max-width: 390px){
+  .container .text-mujer {
+    height: 35rem;
+  padding: 20px 10px 10px;
+}
+}
+
+.container .text-mujer h1 {
+  height: 100px;
+  color: #000000;
+  text-align: center;
+  font-size: 84px;
+}
+@media only screen and (max-width: 390px){
+.container .text-mujer h1 {
+  height: 3rem;
+  font-size: 2rem;
+}
+}
+.container .text-mujer p {
+  height: 400px;
+  text-align: left;
+  color: #333333;
+  font-size: 36px;
+  line-height: 42px;
+  padding: 10px;
+}
+@media only screen and (max-width: 390px){
+.container .text-mujer p {
+  width: 100%;
+  height: 20rem;
+  font-size: 1rem;
+  line-height: 22px;
+  padding: 5px;
+}
+}
+
+.container .text-mujer button {
+  color: #f3f3f3;
+  background-color: #00669f;
+  width: 15rem;
+  height: 114px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 390px){
+  .container .text-mujer button {
+  width: 7rem;
+  height: 3rem;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 1rem;
+}
+}
+
+
+/* superman */
+
+
+.container .box-super img {
+  border-radius: 50%;
+  width: 352px;
+  height: 352px;
+    position: absolute;
+  top: 389px;
+  right: 200px;
+  
+}
+
+@media only screen and (max-width: 390px){
+  .super .box-super img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  top: 170px;
+  right: 130px;
+}
+}
+
+
+.container .super .box-super {
+  background-image: url("../img/back-bat.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  border-radius: 35px 35px 0 0;
+  position: relative;
+}
+@media only screen and (max-width: 390px){
+  .container .super .box-super {
+  width: 100%;
+  height: 15rem;
+  border-radius: 35px 35px 0 0;
+
+}
+}
+
+.container .box-super .fa-solid,
+.fas {
+  color: #cc2424;
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  font-size: 60px;
+  text-align: center;
+  left: 20px;
+  right: 0%;
+  top: 20px;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 390px){
+  .container .box-super .fa-solid,
+.fas {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.3rem;
+
+}
+}
+
+.container .text-super {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 150px 20px 10px;
+}
+@media only screen and (max-width: 390px){
+  .container .text-super {
+    height: 35rem;
+  padding: 20px 10px 10px;
+}
+}
+
+.container .text-super h1 {
+  height: 100px;
+  color: #000000;
+  text-align: center;
+  font-size: 84px;
+}
+@media only screen and (max-width: 390px){
+.container .text-super h1 {
+  height: 3rem;
+  font-size: 2rem;
+}
+}
+.container .text-super p {
+  height: 400px;
+  text-align: left;
+  color: #333333;
+  font-size: 36px;
+  line-height: 42px;
+  padding: 10px;
+}
+@media only screen and (max-width: 390px){
+.container .text-super p {
+  width: 100%;
+  height: 20rem;
+  font-size: 1rem;
+  line-height: 22px;
+  padding: 5px;
+}
+}
+
+.container .text-super button {
+  color: #f3f3f3;
+  background-color: #00669f;
+  width: 15rem;
+  height: 114px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 390px){
+  .container .text-super button {
+  width: 7rem;
+  height: 3rem;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 1rem;
+}
+}
+
+/* superman done */
+
+.container .box-harley img {
+  border-radius: 50%;
+  width: 352px;
+  height: 352px;
+    position: absolute;
+  top: 389px;
+  right: 200px;
+  
+}
+
+@media only screen and (max-width: 390px){
+  .harley .box-harley img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  top: 170px;
+  right: 130px;
+}
+}
+
+
+.container .harley .box-harley {
+  background-image: url("../img/back-bat.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  border-radius: 35px 35px 0 0;
+  position: relative;
+}
+@media only screen and (max-width: 390px){
+  .container .harley .box-mujer {
+  width: 100%;
+  height: 15rem;
+  border-radius: 35px 35px 0 0;
+
+}
+}
+
+.container .box-harley .fa-solid,
+.fas {
+  color: #cc2424;
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  font-size: 60px;
+  text-align: center;
+  left: 20px;
+  right: 0%;
+  top: 20px;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 390px){
+  .container .box-harley .fa-solid,
+.fas {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.3rem;
+
+}
+}
+
+.container .text-harley {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 150px 20px 10px;
+}
+@media only screen and (max-width: 390px){
+  .container .text-harley {
+    height: 35rem;
+  padding: 20px 10px 10px;
+}
+}
+
+.container .text-harley h1 {
+  height: 100px;
+  color: #000000;
+  text-align: center;
+  font-size: 84px;
+}
+@media only screen and (max-width: 390px){
+.container .text-harley h1 {
+  height: 3rem;
+  font-size: 2rem;
+}
+}
+.container .text-harley p {
+  height: 400px;
+  text-align: left;
+  color: #333333;
+  font-size: 36px;
+  line-height: 42px;
+  padding: 10px;
+}
+@media only screen and (max-width: 390px){
+.container .text-harley p {
+  width: 100%;
+  height: 20rem;
+  font-size: 1rem;
+  line-height: 22px;
+  padding: 5px;
+}
+}
+
+.container .text-harley button {
+  color: #f3f3f3;
+  background-color: #00669f;
+  width: 15rem;
+  height: 114px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 390px){
+  .container .text-harley button {
+  width: 7rem;
+  height: 3rem;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 1rem;
+}
+}
+
+/* inicio footer */
+
+footer {
+  background-color: #00669f;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+@media only screen and (max-width: 390px){
+  footer {
+  height: 3rem;
+  padding: 15px;
+}
+}
+
+footer p {
+  width: 80%;
+  height: 40px;
+  text-align: center;
+  color: #fff9f9;
+  font-size: 36px;
+}
+@media only screen and (max-width: 390px){
+footer p {
+  width: 80%;
+  height: 1rem;
+  text-align: center;
+  font-size: 0.5rem;
+}
+}
+
+@media only screen and (max-width: 390px){
+  footer img{
+    width:70px;
+    height: 30px;
+
+  }
+}
